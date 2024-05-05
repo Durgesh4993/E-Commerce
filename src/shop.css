@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+.r1{
+    background-color: rgb(15, 18, 19);
+    color:white;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding:10px;
+}
+.nav{
+    color: aqua;
+    float: right;
+    font-size: 20px;
+}
+.r2{
+    width: 100%;
+    background-color: rgb(26, 24, 27);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    color:white;
+}
+.r2>.c1{
+    flex:20%;
+    background-color: rgb(26, 24, 27);
+    padding: 10px 10px 10px 10px;
+}
+.r2>.c2{
+    flex:80%;
+    background-color: rgb(47, 47, 46);
+    display: flex;
+    flex-wrap: wrap;
+}
+.r2>.c2>.m1{
+    flex:20%;
+    margin:1% 2.5% 1% 2.5%;
+    background-color: rgb(96, 96, 96);
+    text-align: center;
+    padding:5px;
+}
+.pic1{
+    width:100%;
+    height:auto;
+}
+.r3{
+    background-color: cadetblue;
+    text-align: center;
+    padding:10px;
+}
